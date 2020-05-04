@@ -1,0 +1,25 @@
+{
+  "name": "labeling",
+  "version": "1.0.0",
+  "description": "System for text labeling",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimmykarson/labeling.git"
+  },
+  "keywords": [
+    "labeling",
+    "nlp",
+    "machine",
+    "learning"
+  ],
+  "author": "Dimmy Magalhães",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dimmykarson/labeling/issues"
+  },
+  "homepage": "https://github.com/dimmykarson/labeling#readme"
+}
