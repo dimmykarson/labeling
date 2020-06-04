@@ -10,6 +10,7 @@ class App extends Component {
       
       <div className="App">
         <header><h3>Rotulagem de Argumentos Jurídicos</h3></header>
+        <hr/>
         <PairArguments />
       </div>
 

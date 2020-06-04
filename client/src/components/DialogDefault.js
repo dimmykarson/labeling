@@ -37,7 +37,7 @@ class DialogDefault extends Component {
     render() {
         return (
             <div>
-                <button onClick={this.openModal}>{this.props.open}</button>
+                <button onClick={this.openModal} className="btn btn-warning">{this.props.open}</button>
                 <Modal
                     isOpen={this.state.isOpen}
                     onAfterOpen={this.afterOpenModal}
@@ -47,7 +47,7 @@ class DialogDefault extends Component {
                     <div className="rowC">
                         <h2 className="half">{this.props.title}</h2>
                         <div className="half right">
-                            <button onClick={this.closeModal}>Fechar</button>
+                            <button onClick={this.closeModal} className="btn btn-info">Fechar</button>
                         </div>
                     </div>
 

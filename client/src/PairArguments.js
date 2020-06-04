@@ -171,13 +171,12 @@ class PairArguments extends Component {
                             name='similarity'
                         />
                     </div>
-                    <input type="submit" value="Rotular" />
-                    <input type="button" value="Atualizar" onClick={this.handleRefresh} />
+                    <input type="submit" className="btn btn-primary" value="Rotular" />
+                    <input type="button" className="btn btn-success" value="Atualizar" onClick={this.handleRefresh} />
 
 
                 </form>
                 <DialogDefault title="Ajuda" open="Ajuda">
-
                     <b>1. </b>O sistema apresenta dois trechos retirados de acórdãos,
                         nomeados aqui de <b>Tópico 1</b> e <b>Tópico 2</b>.
                         O sistema tentará exibir trechos de argumentos do mesmo assunto jurídico.<br />
@@ -191,9 +190,6 @@ class PairArguments extends Component {
                     propõem conclusões divergentes sobre as mesmas premissas a opção é 
                     submeter a rotulagem com 0 (zero) estrelas.<br/>
                     <b>5. </b>Quanto tiver certeza de sua análise, clique em 'Rotular' para salvar os dados.<br/>
-
-
-
 
                 </DialogDefault>
             </div>
