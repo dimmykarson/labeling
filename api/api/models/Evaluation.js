@@ -13,7 +13,14 @@ const EvaluationSchema = mongoose.Schema({
     text_2_is_argument:Boolean,
     similarity_stars:{
         type:Number,
-        default:0
+        default: 0,
+        validator : {
+            validator:function(v){
+                return 0<=v && v<=5;
+            },
+            message: props => `${props.value} is not a valid rating`
+        },
+        message   : '{VALUE} is not an integer value'
     },
     date:{
         type:Date,

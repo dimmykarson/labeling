@@ -6,5 +6,6 @@ module.exports = app => {
       .get(controller.listArguments)
       .post(controller.createArgument);
     app.route('/api/v1/argument/pair')
-      .get(controller.getPair);    
+      .get(controller.getPair);
+    
 }

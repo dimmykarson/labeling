@@ -5,6 +5,18 @@ const ArgumentSchema = mongoose.Schema({
         type:String,
         require:true
     },
+    label:{
+        type:String
+    },
+    importance:{
+        type:Number
+    },
+    process:{
+        type:String
+    },
+    comments:{
+        type:String
+    },
     hits:{
         type:Number,
         default:0

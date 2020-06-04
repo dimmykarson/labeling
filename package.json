@@ -1,0 +1,20 @@
+{
+  "name": "ear",
+  "version": "1.0.0",
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "cd api && npm start",
+    "i_client": "cd client && npm install",
+    "i_server": "cd api && npm install",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
+    "ci": "concurrently --kill-others-on-fail \"npm run i_client\" \"npm run i_server\""
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "react-dialog": "^1.0.2",
+    "react-star-ratings": "^2.3.0"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.0"
+  }
+}
