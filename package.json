@@ -10,7 +10,7 @@
     "ci": "concurrently --kill-others-on-fail \"npm run i_client\" \"npm run i_server\""
   },
   "dependencies": {
-    "express": "^4.16.2",
+    "express": "^4.17.3",
     "react-dialog": "^1.0.2",
     "react-star-ratings": "^2.3.0"
   },
